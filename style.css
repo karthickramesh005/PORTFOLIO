@@ -97,7 +97,7 @@ section{
 
 
 section .skill1{
-    transition: 1s;
+    transition: 0.5s;
 }
 .skill .skill1{
     transform:translateX(-30%);
@@ -106,7 +106,7 @@ section .skill1{
     transform:translateX(0);
 }
 section .skill2{
-    transition: 1s;
+    transition: 0.5s;
 }
 .skill .skill2{
     transform:scale(.7);
@@ -115,7 +115,7 @@ section .skill2{
     transform:scale(1);
 }
 section .project1{
-    transition: 1s;
+    transition: 0.5s;
 }
 .project .project1{
     transform:scale(.7);
@@ -124,7 +124,7 @@ section .project1{
     transform:scale(1);
 }
 section .resume1{
-    transition: 1s;
+    transition: 0.5s;
 }
 .resume .resume1{
     transform:translateX(-30%);
@@ -133,7 +133,7 @@ section .resume1{
     transform:translateX(0);
 }
 section .resume2{
-    transition: 1s;
+    transition: 0.5s;
 }
 .resume .resume2{
     transform:translateX(30%);
@@ -142,7 +142,7 @@ section .resume2{
     transform:translateX(0);
 }
 section .outher1{
-    transition: 1s;
+    transition: 0.5s;
 }
 .outher .outher1{
     transform:scale(1);
