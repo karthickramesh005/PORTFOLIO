@@ -1,5 +1,5 @@
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['Software Engineer.', 'Front-end Developer.', 'Web Developer.'], 'text',['#FFFFFF',' #ff0000','#FFA500']);
+consoleText(['Software Engineer.', 'Front-end Developer.', 'Web Developer.'], 'text',['#FFFFFF',' #FFFFFF','#FFFFFF']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
@@ -51,7 +51,9 @@ function consoleText(words, id, colors) {
 }
 
 
-
+function click(){
+  alert("Message sended");
+}
 
 
 
@@ -60,7 +62,7 @@ let sections = document.querySelectorAll('section');
 window.onscroll = () =>{
     sections.forEach(sec => {
         let top = window.scrollY;
-        let offset = sec.offsetTop - 120;
+        let offset = sec.offsetTop - 150;
         let height = sec.offsetHeight;
         if (top >= offset && top < offset + height){
             sec.classList.add('show-animate');
